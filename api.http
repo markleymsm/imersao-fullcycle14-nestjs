@@ -13,8 +13,8 @@ Content-Type: application/json
 
 {
   "name": "route test 1",
-  "source_id": "1",
-  "destination_id": "2"
+  "source_id": "EjFBdi4gUmlvIFZlcmRlLCBBcGFyZWNpZGEgZGUgR29pw6JuaWEgLSBHTywgQnJhc2lsIi4qLAoUChIJaRTC-jj3XpMR1bHNaVz8GDwSFAoSCW05ybzU-16TEejkqLxazI4T",
+  "destination_id": "ChIJjVBCCGLxXpMRqp30HMbmRqA"
 }
 
 
