@@ -18,7 +18,7 @@ Content-Type: application/json
 }
 
 
-###
-PATCH http://localhost:3000/routes
-###
-DELETE http://localhost:3000/routes
+### Coisas do map
+
+### Pegar o place_id
+GET http://localhost:3000/places?text=av goias, goiania, 100
