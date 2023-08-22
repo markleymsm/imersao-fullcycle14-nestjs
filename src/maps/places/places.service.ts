@@ -13,18 +13,14 @@ export class PlacesService {
   ) {}
 
   async findPlace(text: string) {
-    try {
-      const { data } = await this.googleMapsClient.findPlaceFromText({
-        params: {
-          input: text,
-          inputtype: PlaceInputType.textQuery,
-          fields: ['place_id', 'formatted_address', 'geometry', 'name'],
-          key: this.configService.get<string>('GOOGLE_MAPS_API_KEY'),
-        },
-      });
-      return data;
-    } catch (error) {
-      console.error(error);
-    }
+    const { data } = await this.googleMapsClient.findPlaceFromText({
+      params: {
+        input: text,
+        inputtype: PlaceInputType.textQuery,
+        fields: ['place_id', 'formatted_address', 'geometry', 'name'],
+        key: this.configService.get<string>('GOOGLE_MAPS_API_KEY'),
+      },
+    });
+    return data;
   }
 }
