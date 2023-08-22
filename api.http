@@ -21,4 +21,8 @@ Content-Type: application/json
 ### Coisas do map
 
 ### Pegar o place_id
-GET http://localhost:3000/places?text=av goias, goiania, 100
+GET http://localhost:3000/places?text=av rio verde, aparecida de goiania
+
+
+### Pegar direções entre 2 pontos
+GET http://localhost:3000/directions?originId=EjFBdi4gUmlvIFZlcmRlLCBBcGFyZWNpZGEgZGUgR29pw6JuaWEgLSBHTywgQnJhc2lsIi4qLAoUChIJaRTC-jj3XpMR1bHNaVz8GDwSFAoSCW05ybzU-16TEejkqLxazI4T&destinationId=ChIJjVBCCGLxXpMRqp30HMbmRqA
